@@ -3,8 +3,7 @@ body{
 }
 
 .gif img{
-    width: 1582px;
-    height: 760px;
+    width: 100%;
 }
 
 .logo{
@@ -13,24 +12,47 @@ body{
     left: 33%;
 }
 
-.navbar{
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    top: 20%;
+main{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.navbar a{
-    text-decoration: none;
-    color: #8ee8cd;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.links{
-    margin-top: 50px;
-    margin-left: 20px;
-    background-color: rgba(0, 0, 0, 0.247);
-    border-radius: 10px;
+.seta{
     text-align: center;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 100%;
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    padding: 0%;
+    padding-top: 1.5%;
+
+}
+
+.seta:hover{
+   background-color: rgba(0, 0, 0, 0.733);
+}
+
+.seta img{
+    text-align: center;
+    width: 70%;
+}
+
+.brasao{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.brasao img{
+    width: 10%;
+}
+
+.janela{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: silver;
+    border-radius: 5px;
 }
