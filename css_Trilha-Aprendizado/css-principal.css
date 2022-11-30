@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(230, 230, 230);
+}
+
+
+.titulo{
+    margin-top: 5%;
+    text-align: center;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 250%;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border-bottom: solid 4px #3CA6A6 ;
+}
+
+.subtitulo{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 140%;
+    padding: 1%;
+    border: dashed #3ca686;
+}
+
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aulas{
+    background-color: rgb(157, 207, 191);
+    box-shadow: 0 0 15px 5px rgba(168, 168, 168, 0.497);
+    border-radius: 15px;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.aulas:hover{
+    background-color: rgb(113, 161, 146); 
+    box-shadow: 0 0 15px 7px rgba(168, 168, 168, 0.618);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: green;
+}
